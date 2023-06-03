@@ -1,0 +1,15 @@
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.AssemblyReference.cache
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\MainWindow.g.cs
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\App.g.cs
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy_MarkupCompile.cache
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy_MarkupCompile.lref
+C:\dev\C#\WpfStudy\WpfStudy\bin\Debug\WpfStudy.exe.config
+C:\dev\C#\WpfStudy\WpfStudy\bin\Debug\WpfStudy.exe
+C:\dev\C#\WpfStudy\WpfStudy\bin\Debug\WpfStudy.pdb
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\MainWindow.baml
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.g.resources
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.Properties.Resources.resources
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.GenerateResource.cache
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.CoreCompileInputs.cache
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.exe
+C:\dev\C#\WpfStudy\WpfStudy\obj\Debug\WpfStudy.pdb
