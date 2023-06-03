@@ -18,9 +18,18 @@
         <ListView x:Name="listView1" HorizontalAlignment="Left" Height="128" Margin="168,40,0,0" VerticalAlignment="Top" Width="437" >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="이미지" Width="300"/>
+                    <GridViewColumn Header="이미지" Width="300">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <Image Width="60" Height="60" Source="{Binding UserImg}"/>
+                                    <Button Height="20" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                     <GridViewColumn Header="이름" Width="50" DisplayMemberBinding="{Binding Name}"/>
-                    <GridViewColumn Header="나이" Width="50"/>
+                    <GridViewColumn Header="나이" Width="50" DisplayMemberBinding="{Binding UserAge}"/>
                 </GridView>
             </ListView.View>
         </ListView>

@@ -33,15 +33,20 @@ namespace WpfStudy
             MessageBox.Show(textBox1.Text);
 
             User userA = new User();
+            userA.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg"; // 특수문자 read @
+
             userA.Name = "Noah";
-            userA.UsersAge = 15;
+            userA.UserAge = 15;
 
             User userB = new User();
+            userB.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg";
             userB.Name = "Liam";
-            userB.UsersAge = 15;
+            userB.UserAge = 35;
 
             myList1.Add(userA);
             myList1.Add(userB);
+
+            listView1.ItemsSource = myList1;
 
 
         }

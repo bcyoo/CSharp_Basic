@@ -26,7 +26,7 @@ namespace WpfStudy.Models
 
         private int userAge;
 
-        public int UsersAge
+        public int UserAge
         {
             get { return userAge; }
             set { userAge = value; }
