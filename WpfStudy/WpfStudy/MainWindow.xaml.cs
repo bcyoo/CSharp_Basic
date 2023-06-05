@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfStudy.Models;
+using WpfStudy.ViewModels;
 
 namespace WpfStudy
 {
@@ -21,32 +22,37 @@ namespace WpfStudy
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainViewModel mainViewModel;
         public MainWindow()
         {
             InitializeComponent();
+            mainViewModel = new MainViewModel();
+            mainViewModel.ProgressValue = 30; // 초기값 30
+            DataContext = mainViewModel;
         }
 
         private void btnTest1_Click(object sender, RoutedEventArgs e)
         {
-            List<User> myList1 = new List<User>();
-            labelTest1.Content = "내용변경완료";
-            MessageBox.Show(textBox1.Text);
+            //List<User> myList1 = new List<User>();
+            //labelTest1.Content = "내용변경완료";
+            //MessageBox.Show(textBox1.Text);
 
-            User userA = new User();
-            userA.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg"; // 특수문자 read @
+            //User userA = new User();
+            //userA.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg"; // 특수문자 read @
 
-            userA.Name = "Noah";
-            userA.UserAge = 15;
+            //userA.Name = "Noah";
+            //userA.UserAge = 15;
 
-            User userB = new User();
-            userB.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg";
-            userB.Name = "Liam";
-            userB.UserAge = 35;
+            //User userB = new User();
+            //userB.UserImg = @"C:\dev\CSharp_Basic\WpfStudy\WpfStudy\Resources\photo1.jpg";
+            //userB.Name = "Liam";
+            //userB.UserAge = 35;
 
-            myList1.Add(userA);
-            myList1.Add(userB);
+            //myList1.Add(userA);
+            //myList1.Add(userB);
 
-            listView1.ItemsSource = myList1;
+            //listView1.ItemsSource = myList1;
+            mainViewModel.ProgressValue = 100;
 
 
         }
