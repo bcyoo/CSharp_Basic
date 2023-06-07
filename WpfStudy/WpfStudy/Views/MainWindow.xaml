@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfStudy"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:UserControls="clr-namespace:WpfStudy.UserControls" x:Class="WpfStudy.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
@@ -68,5 +69,17 @@
         <UserControls:ThreeControls HorizontalAlignment="Left" Height="100" Margin="411,201,0,0" VerticalAlignment="Top" Width="100"/>
         <UserControls:MyLabel HorizontalAlignment="Left" Margin="625,246,0,0" VerticalAlignment="Top" Content="asdf"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="635,98,0,0" VerticalAlignment="Top" Width="75" Command="{Binding SecondShow}"/>
+        <ComboBox HorizontalAlignment="Left" Margin="645,329,0,0" VerticalAlignment="Top" Width="120" MouseDown="ComboBox_MouseDown">
+            <ComboBoxItem Content="사과"/>
+            <ComboBoxItem Content="포도"/>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseLeave">
+                    <i:InvokeCommandAction Command="{Binding TestClick}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding TestClick2341ads}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ComboBox>
     </Grid>
 </Window>

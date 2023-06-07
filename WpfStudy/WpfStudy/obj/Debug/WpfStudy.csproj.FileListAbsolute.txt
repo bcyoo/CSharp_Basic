@@ -52,3 +52,6 @@ C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\SecondView.g.cs
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\SecondView.baml
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\MainWindow.g.cs
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\MainWindow.baml
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\Microsoft.Xaml.Behaviors.xml
