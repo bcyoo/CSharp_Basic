@@ -9,6 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using WpfStudy.Views;
 
 namespace WpfStudy.ViewModels
 {
@@ -17,10 +18,12 @@ namespace WpfStudy.ViewModels
         private int progressValue;
 
         public ICommand TestClick { get; set; }
+        public ICommand SecondShow { get; set; }
         public MainViewModel()
         {
             //TestClick = new RelayCommand<object>(ExecuteMybuton, CanMyButon);
             TestClick = new AsyncRelayCommand(ExecuteMyButton2);
+            SecondShow = new AsyncRelayCommand(ExecuteMyButton3);
             //Task t = ExecuteMyButton2();
         }
 
@@ -99,7 +102,16 @@ namespace WpfStudy.ViewModels
             MessageBox.Show(w + "");
         }
 
-        
+        public async Task ExecuteMyButton3()
+        {
+            SecondView secondView = new SecondView();
+            SecondViewModel aa = new SecondViewModel();
+            aa.ProgressValue = 70;
+            secondView.DataContext = aa;
+
+            secondView.ShowDialog();
+            await Task.Delay(0);
+        }
 
 
         public event PropertyChangedEventHandler PropertyChanged;

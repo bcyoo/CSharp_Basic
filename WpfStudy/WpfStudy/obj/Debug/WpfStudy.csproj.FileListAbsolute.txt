@@ -17,11 +17,9 @@ C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\WpfStudy.exe.config
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\WpfStudy.exe
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\WpfStudy.pdb
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.AssemblyReference.cache
-C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\MainWindow.g.cs
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\App.g.cs
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy_MarkupCompile.cache
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy_MarkupCompile.lref
-C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\MainWindow.baml
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy.g.resources
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy.Properties.Resources.resources
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.GenerateResource.cache
@@ -45,3 +43,12 @@ C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\System.Numerics.Vectors.xml
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\WpfStudy.csproj.CopyComplete
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\UserControls\ThreeControls.g.cs
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\UserControls\ThreeControls.baml
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\UserControls\MyLabel.g.cs
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\UserControls\MyLabel.baml
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\SecondView.g.cs
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\SecondView.baml
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\MainWindow.g.cs
+C:\dev\CSharp_Basic\WpfStudy\WpfStudy\obj\Debug\Views\MainWindow.baml

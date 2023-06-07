@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\dev\CSharp_Basic\WpfStudy\WpfStudy\App.xaml
-11151548125
+41033797605
 
-92050127384
+14267124300
 25-301236890
-MainWindow.xaml;
+Views\MainWindow.xaml;UserControls\MyLabel.xaml;UserControls\ThreeControls.xaml;Views\SecondView.xaml;
 
 False
 
